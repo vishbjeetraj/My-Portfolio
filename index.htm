@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edbc5ab48d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logovishu.png" alt="logovishu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>VISHBJEET RAJ</span> <br>From Patna,BIHAR </h1>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I’m <strong>Vishbjeet Raj</strong>, a student at <strong>Silver Oak University,
+                            Ahmedabad</strong>,
+                        pursuing B.Tech in <strong>Computer Engineering</strong>.
+                        I am originally from <strong>Patna, Bihar</strong>, and I am passionate about technology and
+                        problem-solving.
+
+                        I enjoy learning new concepts, exploring software development, and applying my knowledge to
+                        practical projects. Apart from academics, I have also worked on creating <strong>web
+                            projects</strong>
+                        and professional <strong>resumes</strong>, which helped me improve both my technical and
+                        communication skills.
+
+                        My ultimate goal is to build a successful career as a <strong>Software Developer</strong> in a
+                        reputed company,
+                        where I can keep learning, grow professionally, and contribute to impactful projects.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building responsive websites using HTML, CSS &
+                                JavaScript</li>
+                            <li><span>Programming</span><br>C, C++, Python (beginner)</li>
+                            <li><span>App Development</span><br>Learning basics of Android/iOS app development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 – Present</span><br>Student at Silver Oak University, pursuing B.Tech in
+                                Computer Engineering</li>
+                            <li><span>Using HTMl,CSS,JS</span><br>Created multiple websites including a <b>Zomato
+                                    Clone</b> <br>and other personal projects
+                                Built professional resumes showcasing skills & career goals</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Computer Engineering</span><br>Silver Oak University, Ahmedabad <br>(Aug 2024 –
+                                Present)</li>
+                            <li><span>XII (BSEB) | 2024</span><br>Bihar Town High School, Bihar <br> Graduated with 70%
+                            </li>
+                            <li><span>X (BSEB) | 2022</span><br>P L S High School, Shohsarai, Bihar <br>Graduated with
+                                75%</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!------------------------Services------------------>
+                <div id="services">
+                    <div class="container">
+                        <h1 class="sub-title">My Services</h1>
+                        <div class="services-list">
+
+                            <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Web Designer</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur hic facilis quae
+                                    nemo velit dolorum eaque cumque facere, veniam est quasi placeat quos optio
+                                    consequatur natus, a fuga, blanditiis iste!</p>
+                                <a href="#">Learn more</a>
+
+                            </div>
+
+                            <div>
+                                <i class="fa-brands fa-app-store-ios"></i>
+                                <h2> App interface</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur hic facilis quae
+                                    nemo velit dolorum eaque cumque facere, veniam est quasi placeat quos optio
+                                    consequatur natus, a fuga, blanditiis iste!</p>
+                                <a href="#">Learn more</a>
+
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-crop-simple"></i>
+                                <h2>UX/UI Design</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur hic facilis quae
+                                    nemo velit dolorum eaque cumque facere, veniam est quasi placeat quos optio
+                                    consequatur natus, a fuga, blanditiis iste!</p>
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------------------Portfolio---------------->
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">My Work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="img/work-1.png" alt="Work 1">
+                                <div class="layer">
+                                    <h3>Social Media App</h3>
+                                    <p>The app connects you to the talented people around the world.</p>
+
+                                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="img/work-2.png" alt="Work 2">
+                                <div class="layer">
+                                    <h3>Music App</h3>
+                                    <p>The app connects you yo the talanted people aroundthe world. Download it from
+                                        play store.</p>
+                                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="img/work-3.png" alt="Work 3">
+                                <div class="layer">
+                                    <h3>Online Shopping App</h3>
+                                    <p>The app connects you yo the talanted people aroundthe world. Download it from
+                                        play store.</p>
+                                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">See more</a>
+                    </div>
+                </div>
+                <!--------------Contact------------->
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>vishbjeetraj67@gmail.com</p>
+                                <p><i class="fa-solid fa-phone"></i>+91 7858819267</p>
+                                <div class="social-icon">
+                                    <a href="https://www.facebook.com/vishu.mehta.272645"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/i.vishu.___/?next=%2F"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/vishbjeetraj7858/"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+
+                                </div>
+                                <a href="" class="btn btn2">Download CV</a>
+                            </div>
+
+                            <div class="contact-right">
+                                <form>
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright © Vishu Mehta. Made with ❤️ by Easy Tutorials</p>
+                    </div>
+                </div>
+
+                <script>
+                    var tablinks = document.getElementsByClassName("tab-links");
+                    var tabcontents = document.getElementsByClassName("tab-contents");
+
+                    function opentab(tabname, event) {
+                        for (let tablink of tablinks) {
+                            tablink.classList.remove("active-link");
+                        }
+                        for (let tabcontent of tabcontents) {
+                            tabcontent.classList.remove("active-tab");
+                        }
+                        event.currentTarget.classList.add("active-link");
+                        document.getElementById(tabname).classList.add("active-tab");
+                    }
+                </script>
+
+</body>
+
+</html>
